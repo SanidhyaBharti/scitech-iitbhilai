@@ -31,11 +31,10 @@ body {
 
 .scitech {
   position: absolute;
+  left: 2%;
+  top: 11%;
   z-index: 10;
-  font-family: "Bebas Neue", cursive;
-  font-size: 2.7rem;
-  left: 0;
-  top: 20%;
+  font-family: "Bebas Neue";
   color: #fff;
 }
 .navbar {
@@ -44,12 +43,13 @@ body {
   width: 100%;
 
   padding-top: 3em;
-  background: rgba(21, 19, 19, 0.9);
+  background: rgba(21, 19, 19, 0.6);
 
-  height: 3%;
+  height: 4%;
   padding-bottom: 2%;
-  padding-left: 32.5%;
+  padding-left: 33.5%;
   padding-right: 45%;
+
   z-index: 4;
 }
 .college {
@@ -150,7 +150,11 @@ body {
   margin: auto;
   display: block;
 }
-
+@media(max-width:900px){
+  .iitbh-logo{
+    display: none;
+  }
+}
 nav-link:hover::after {
   width: 100%;
   transition: width 0.5s linear;
@@ -382,18 +386,7 @@ h5 {
   flex: 0 0 auto;
   width: fit-content;
 }
-.navbar {
-  position: fixed;
-  top: 0%;
-  width: 100%;
-  padding-top: 3em;
-  background: rgba(21, 19, 19, 0.9);
-  height: 3%;
-  padding-bottom: 4%;
-  padding-left: 64%;
-  padding-right: 35%;
-  z-index: 4;
-}
+
 .college{
 display: none;
 }
